@@ -82,43 +82,43 @@ a:focus {
 }
 
 /* Zero-element page loader */
-.js .loading::before,
-.js .loading::after {
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	left: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-}
+/* .js .loading::before, */
+/* .js .loading::after { */
+/* 	position: fixed; */
+/* 	z-index: 1000; */
+/* 	top: 0; */
+/* 	left: 0; */
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	justify-content: center; */
+/* 	align-items: center; */
+/* 	width: 100%; */
+/* 	height: 100%; */
+/* } */
 
-.js .loading::before {
-	content: '';
-	background: rgb(42, 44, 54);
-}
+/* .js .loading::before { */
+/* 	content: ''; */
+/* 	background: rgb(42, 44, 54); */
+/* } */
 
-.js .loading::after {
-	content: 'Loading... \APlease turn on your sound';
-	line-height: 2;
-	padding: 2em 0 0 0;
-	text-align: center;
-	white-space: pre;
-	font-weight: bold;
-	color: #5b5d69;
-	background: url(../img/note.svg) no-repeat 50% calc(50% - 3em);
-	background-size: 2.5em;
-	animation: loaderAnim 1s alternate infinite;
-}
+/* .js .loading::after { */
+/* 	content: 'Loading'; */
+/* 	line-height: 2; */
+/* 	padding: 2em 0 0 0; */
+/* 	text-align: center; */
+/* 	white-space: pre; */
+/* 	font-weight: bold; */
+/* 	color: #5b5d69; */
+/* 	background: url(../img/note.svg) no-repeat 50% calc(50% - 3em); */
+/* 	background-size: 2.5em; */
+/* 	animation: loaderAnim 1s alternate infinite; */
+/* } */
 
-@keyframes loaderAnim {
-	to {
-		opacity: 0.2;
-	}
-}
+/* @keyframes loaderAnim { */
+/* 	to { */
+/* 		opacity: 0.2; */
+/* 	} */
+/* } */
 
 /* Intro header */
 .intro {
@@ -181,20 +181,20 @@ a:focus {
 }
 
 /* GitHub link */
-.link-github {
-	z-index: 1000;
-	display: inline-block;
-	margin: 0 0 0 auto;
-	padding: 0.75em;
-	pointer-events: auto;
-	color: #2a2c36;
-	background: #fbce41;
-}
+/* .link-github { */
+/* 	z-index: 1000; */
+/* 	display: inline-block; */
+/* 	margin: 0 0 0 auto; */
+/* 	padding: 0.75em; */
+/* 	pointer-events: auto; */
+/* 	color: #2a2c36; */
+/* 	background: #fbce41; */
+/* } */
 
-.link-github:hover,
-.link-github:focus {
-	color: #fff;
-}
+/* .link-github:hover, */
+/* .link-github:focus { */
+/* 	color: #fff; */
+/* } */
 
 /* Intro title and tagline */
 .intro__title {
