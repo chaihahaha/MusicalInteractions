@@ -253,7 +253,7 @@
 		this.keyboardMapping = this.options.layouts.keys['default'].keyboardMapping;
 		this._assignKeyboard();
 
-		for(var i = 0, len = this.options.layouts.mediaQueries.length; i <= len-1; ++i) {
+		for(var i = 0, len = this.options.layouts.mediaQueries.length; i <= 0; ++i) {
 			var key = this.options.layouts.mediaQueries[i].key,
 				type = this.options.layouts.mediaQueries[i].type;
 
