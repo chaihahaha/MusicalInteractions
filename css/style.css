@@ -329,13 +329,7 @@ a:focus {
 	background-size: cover;
 }
 
-.content--cursor-dark {
-	cursor: url(../img/cursors/cursor_dark.png) 16 16, url(../img/cursors/cursor_dark.cur), pointer;
-}
 
-.content--cursor-light {
-	cursor: url(../img/cursors/cursor_light.png) 16 16, url(../img/cursors/cursor_light.cur), pointer;
-}
 
 .content--bg-mic {
 	background-image: url(../img/mic.jpg);
