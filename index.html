@@ -13,6 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/instruments.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/practice.css"/>
+			
+		
 		<!-- polyfills -->
 		<script src="js/inc/shim/Base64.js" type="text/javascript"></script>
 		<script src="js/inc/shim/Base64binary.js" type="text/javascript"></script>
@@ -31,13 +34,14 @@
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<script>document.documentElement.className = 'js';</script>
+		<script src="js/jquery-3.3.1.min.js"></script>
 	</head>
 	<body class="loading">
 		<main>
 			
 			<section class="content content--instrument content--piano content--cursor-dark">
 				<div class="piano instrument">
-					<svg class="piano__inner" xmlns:note="http://tympanus.net/codrops" viewBox="0 0 2080 200" preserveAspectRatio="none">
+					<svg class="piano__inner" xmlns:note="http://tympanus.net/codrops" viewBox="0 0 2080 100" preserveAspectRatio="none">
 						<g class="piano__keys piano__keys--natural">
 							<rect note:id="0" x="0" class="piano__key piano__key--natural" width="40" height="100"/>
 							<rect note:id="2" x="40" class="piano__key piano__key--natural" width="40" height="100"/>
@@ -133,8 +137,15 @@
 					</svg>
 				</div><!-- piano -->
 			</section>
-			
+			<div id="note_solfege_practice">
+				<p><span id="musical_note"> !</span></p>
+				<input type="text" placeholder="请输入音名或唱名" />
+				<button id="submit">新问题</button>
+				<p id="answer"></p>
+				<p id="rightness"></p>
+			</div>
 		</main>
+		
 		<!-- keyboard events : used for the piano - assign keyboard keys to piano keys -->
 		<script src="js/mousetrap.min.js"></script>
 		<!-- the canvas wave animation -->
@@ -150,5 +161,6 @@
 		
 		<!-- main script -->
 		<script src="js/main.js"></script>
+		<script type="text/javascript" src="musical_note.js"></script>
 	</body>
 </html>

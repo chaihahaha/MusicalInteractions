@@ -1,0 +1,20 @@
+@font-face {
+font-family: "LASSUS";
+src: url("LASSUS.woff2") format("woff2"),
+   url("LASSUS.woff") format("woff"),
+   url("LASSUS.ttf") format("truetype"),
+   url("LASSUS.eot") format("embedded-opentype");
+font-weight: normal;
+font-style: normal;
+}
+#musical_note
+{
+	font-family: "LASSUS";
+	font-size:200px;
+}
+#note_solfege_practice
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
